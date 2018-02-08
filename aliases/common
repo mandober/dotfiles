@@ -1,0 +1,53 @@
+#!/bin/bash
+#=========================================================================
+# FILE: aliases
+# DESC: Common aliases for misc. POSIX environments
+# HOME: https://github.com/mandober/dotfiles
+# LAST: 06-Sep-2017
+#=========================================================================
+
+## ls
+alias ls="ls --classify --group-directories-first --human-readable --color=auto"
+# ls colors
+eval $(dircolors -b ~/.dircolors)
+# short with dotfiles
+alias l="ls --almost-all"
+# long with dotfiles
+alias ll="ls -l --almost-all"
+# long without dotfiles
+alias lk="ls -l"
+
+
+## cd
+alias cd..='cd ..'
+alias ..='cd ..'
+alias -- -='cd -'
+alias cd-='cd -'
+
+# find
+alias f="find . -iname "
+alias ff="find . -type f -iname "
+alias fd="find . -type d -iname "
+
+# sudo
+alias v=vim
+alias sv="sudo vim"
+
+# print path
+alias pp="echo ${PATH//:/$'\f\r'}"
+
+# recursevely chown files and dirs
+alias pwn='chown -R -c $USER:$USER **'
+
+# show differences in colour
+alias grep='grep --color'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# Default to human readable figures
+alias df='df -h'
+alias du='du -h'
+
+# misc
+alias w=which
+alias md="pandoc README.md | lynx -stdin"
