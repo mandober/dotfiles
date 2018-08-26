@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 #=========================================================================
 # FILE: common.bash
 # DESC: bash completions for common commands and builtins
@@ -16,3 +16,4 @@ complete -A file cat vim less
 
 # services
 complete -A service service
+

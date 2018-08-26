@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 #=========================================================================
 # FILE: common.bash
 # DESC: bash completions for common commands and builtins
