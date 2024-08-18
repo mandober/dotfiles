@@ -1,0 +1,20 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 22_2.xcompose
+#| leader-key : <2>
+#|---------------------------------------------------------------------
+<Multi_key> <2>  <apostrophe>    : "″"
+<Multi_key> <2>  <plus>          : "⨧"
+<Multi_key> <2>  <equal>         : "⩵"
+
+<Multi_key> <2> <Left>  <comma>  : "≪"
+<Multi_key> <2> <Right> <comma>  : "≫"
+
+# ⇉ ⇇ ⇈ ⇊
+<Multi_key> <2> <Up>             : "⇈"
+<Multi_key> <2> <Down>           : "⇊"
+<Multi_key> <2> <Left>           : "⇇"
+<Multi_key> <2> <Right>          : "⇉"
+
+<Multi_key> <2> <slash>          : "∥"
+<Multi_key> <2> <s>              : "∬"

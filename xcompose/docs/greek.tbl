@@ -1,0 +1,95 @@
+# Greek alphabet
+
+Name                                            |Hex    | Glyph | Attr
+------------------------------------------------|-------|-------|-----------
+LATIN CAPITAL LETTER OPEN E                     |0x190  | Ɛ     | GR variant
+GREEK SMALL REVERSED LUNATE SIGMA SYMBOL        |0x37b  | ͻ     | GR variant
+GREEK CAPITAL LETTER ALPHA                      |0x391  | Α     | GR
+GREEK CAPITAL LETTER BETA                       |0x392  | Β     | GR
+GREEK CAPITAL LETTER GAMMA                      |0x393  | Γ     | GR
+GREEK CAPITAL LETTER DELTA                      |0x394  | Δ     | GR
+GREEK CAPITAL LETTER EPSILON                    |0x395  | Ε     | GR
+GREEK CAPITAL LETTER ZETA                       |0x396  | Ζ     | GR
+GREEK CAPITAL LETTER ETA                        |0x397  | Η     | GR
+GREEK CAPITAL LETTER THETA                      |0x398  | Θ     | GR
+GREEK CAPITAL LETTER IOTA                       |0x399  | Ι     | GR
+GREEK CAPITAL LETTER KAPPA                      |0x39a  | Κ     | GR
+GREEK CAPITAL LETTER LAMDA                      |0x39b  | Λ     | GR
+GREEK CAPITAL LETTER MU                         |0x39c  | Μ     | GR
+GREEK CAPITAL LETTER NU                         |0x39d  | Ν     | GR
+GREEK CAPITAL LETTER XI                         |0x39e  | Ξ     | GR
+GREEK CAPITAL LETTER OMICRON                    |0x39f  | Ο     | GR
+GREEK CAPITAL LETTER PI                         |0x3a0  | Π     | GR
+GREEK CAPITAL LETTER RHO                        |0x3a1  | Ρ     | GR
+GREEK CAPITAL LETTER SIGMA                      |0x3a3  | Σ     | GR
+GREEK CAPITAL LETTER TAU                        |0x3a4  | Τ     | GR
+GREEK CAPITAL LETTER UPSILON                    |0x3a5  | Υ     | GR
+GREEK CAPITAL LETTER PHI                        |0x3a6  | Φ     | GR
+GREEK CAPITAL LETTER CHI                        |0x3a7  | Χ     | GR
+GREEK CAPITAL LETTER PSI                        |0x3a8  | Ψ     | GR
+GREEK CAPITAL LETTER OMEGA                      |0x3a9  | Ω     | GR
+GREEK SMALL LETTER ALPHA WITH TONOS             |0x3ac  | ά     | GR TONOS
+GREEK SMALL LETTER EPSILON WITH TONOS           |0x3ad  | έ     | GR TONOS
+GREEK SMALL LETTER ETA WITH TONOS               |0x3ae  | ή     | GR TONOS
+GREEK SMALL LETTER ALPHA                        |0x3b1  | α     | GR
+GREEK SMALL LETTER BETA                         |0x3b2  | β     | GR
+GREEK SMALL LETTER GAMMA                        |0x3b3  | γ     | GR
+GREEK SMALL LETTER DELTA                        |0x3b4  | δ     | GR
+GREEK SMALL LETTER EPSILON                      |0x3b5  | ε     | GR
+GREEK SMALL LETTER ZETA                         |0x3b6  | ζ     | GR
+GREEK SMALL LETTER ETA                          |0x3b7  | η     | GR
+GREEK SMALL LETTER THETA                        |0x3b8  | θ     | GR
+GREEK SMALL LETTER IOTA                         |0x3b9  | ι     | GR
+GREEK SMALL LETTER KAPPA                        |0x3ba  | κ     | GR
+GREEK SMALL LETTER LAMDA                        |0x3bb  | λ     | GR
+GREEK SMALL LETTER MU                           |0x3bc  | μ     | GR
+GREEK SMALL LETTER NU                           |0x3bd  | ν     | GR
+GREEK SMALL LETTER XI                           |0x3be  | ξ     | GR
+GREEK SMALL LETTER OMICRON                      |0x3bf  | ο     | GR
+GREEK SMALL LETTER PI                           |0x3c0  | π     | GR
+GREEK SMALL LETTER RHO                          |0x3c1  | ρ     | GR
+GREEK SMALL LETTER FINAL SIGMA                  |0x3c2  | ς     | GR
+GREEK SMALL LETTER SIGMA                        |0x3c3  | σ     | GR
+GREEK SMALL LETTER TAU                          |0x3c4  | τ     | GR
+GREEK SMALL LETTER UPSILON                      |0x3c5  | υ     | GR
+GREEK SMALL LETTER PHI                          |0x3c6  | φ     | GR
+GREEK SMALL LETTER CHI                          |0x3c7  | χ     | GR
+GREEK SMALL LETTER PSI                          |0x3c8  | ψ     | GR
+GREEK SMALL LETTER OMEGA                        |0x3c9  | ω     | GR
+GREEK SMALL LETTER OMICRON WITH TONOS           |0x3cc  | ό     | GR TONOS
+GREEK SMALL LETTER UPSILON WITH TONOS           |0x3cd  | ύ     | GR TONOS
+GREEK SMALL LETTER OMEGA WITH TONOS             |0x3ce  | ώ     | GR TONOS
+GREEK BETA SYMBOL                               |0x3d0  | ϐ     | GR
+GREEK THETA SYMBOL                              |0x3d1  | ϑ     | GR
+GREEK UPSILON WITH HOOK SYMBOL                  |0x3d2  | ϒ     | GR
+GREEK PHI SYMBOL                                |0x3d5  | ϕ     | GR
+GREEK PI SYMBOL                                 |0x3d6  | ϖ     | GR
+GREEK SMALL LETTER STIGMA                       |0x3db  | ϛ     | GR
+GREEK KAPPA SYMBOL                              |0x3f0  | ϰ     | GR
+GREEK RHO SYMBOL                                |0x3f1  | ϱ     | GR
+GREEK LUNATE EPSILON SYMBOL                     |0x3f5  | ϵ     | GR variant
+PARTIAL DIFFERENTIAL                            |0x2202 | ∂     | GR variant
+INCREMENT                                       |0x2206 | ∆     | GR variant
+ELEMENT OF                                      |0x2208 | ∈     | GR variant
+MATHEMATICAL BOLD CAPITAL GAMMA                 |0x1d6aa| 𝚪     | GR bold
+MATHEMATICAL BOLD CAPITAL DELTA                 |0x1d6ab| 𝚫     | GR bold
+MATHEMATICAL BOLD CAPITAL THETA                 |0x1d6af| 𝚯     | GR bold
+MATHEMATICAL BOLD CAPITAL PI                    |0x1d6b7| 𝚷     | GR bold
+MATHEMATICAL BOLD CAPITAL SIGMA                 |0x1d6ba| 𝚺     | GR bold
+MATHEMATICAL BOLD CAPITAL PHI                   |0x1d6bd| 𝚽     | GR bold
+MATHEMATICAL BOLD CAPITAL PSI                   |0x1d6bf| 𝚿     | GR bold
+MATHEMATICAL BOLD CAPITAL OMEGA                 |0x1d6c0| 𝛀     | GR bold
+MATHEMATICAL BOLD SMALL ALPHA                   |0x1d6c2| 𝛂     | GR bold
+MATHEMATICAL BOLD SMALL BETA                    |0x1d6c3| 𝛃     | GR bold
+MATHEMATICAL BOLD SMALL GAMMA                   |0x1d6c4| 𝛄     | GR bold
+MATHEMATICAL BOLD SMALL DELTA                   |0x1d6c5| 𝛅     | GR bold
+MATHEMATICAL BOLD SMALL ETA                     |0x1d6c8| 𝛈     | GR bold
+MATHEMATICAL BOLD SMALL LAMDA                   |0x1d6cc| 𝛌     | GR bold
+MATHEMATICAL BOLD SMALL MU                      |0x1d6cd| 𝛍     | GR bold
+MATHEMATICAL BOLD SMALL PI                      |0x1d6d1| 𝛑     | GR bold
+MATHEMATICAL BOLD SMALL RHO                     |0x1d6d2| 𝛒     | GR bold
+MATHEMATICAL BOLD SMALL SIGMA                   |0x1d6d4| 𝛔     | GR bold
+MATHEMATICAL BOLD SMALL PSI                     |0x1d6d9| 𝛙     | GR bold
+MATHEMATICAL BOLD SMALL OMEGA                   |0x1d6da| 𝛚     | GR bold
+MATHEMATICAL BOLD PI SYMBOL                     |0x1d6e1| 𝛡     | GR bold
+MATHEMATICAL ITALIC SMALL EPSILON               |0x1d700| 𝜀     | GR em

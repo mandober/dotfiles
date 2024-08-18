@@ -1,0 +1,63 @@
+#|---------------------------------------------------------
+#| desc : wincompose: main includer of other config files
+#| path : inc.xcompose
+#| note : itself included from the file "$HOME\.XCompose
+#|---------------------------------------------------------
+
+# leader: punctuation
+include ./01_grave.xcompose
+include ./02_underscore.xcompose
+include ./03_equal.xcompose
+include ./04_parenleft.xcompose
+include ./05_parenright.xcompose
+include ./06_slash.xcompose
+include ./07_colon.xcompose
+include ./08_apostrophe.xcompose
+include ./09_comma.xcompose
+include ./10_period.xcompose
+include ./11_backslash.xcompose
+include ./12_space.xcompose
+
+# leaders: arrows
+include ./13_up.xcompose
+include ./14_down.xcompose
+include ./15_left.xcompose
+include ./16_right.xcompose
+
+# leaders: numpad
+#include./"17_asterisk.xcompose
+include ./18_minus.xcompose
+include ./19_plus.xcompose
+
+#| leaders: digits
+include ./20_0.xcompose
+#include./"21_1.xcompose
+include ./22_2.xcompose
+include ./23_3.xcompose
+#include./"24_4.xcompose
+#include./"25_5.xcompose
+#include./"26_6.xcompose
+#include./"27_7.xcompose
+#include./"28_8.xcompose
+#include./"29_9.xcompose
+
+#| leaders: letters
+include ./99_letters.xcompose
+
+#include./"31_a.xcompose
+#include./"32_b.xcompose
+include ./33_c.xcompose
+#include./"34_d.xcompose
+#include./"35_e.xcompose
+#include./"36_f.xcompose
+#include./"37_g.xcompose
+include ./45_o.xcompose
+# includ./ "46_q.xcompose
+#include./"49_s.xcompose
+
+#| leaders: double-tap {key}
+include ./60_key-key.xcompose
+
+#| leaders: ⎄ ⎄
+include ./61_multi-multi.xcompose
+include ./62_multi-multi-multi.xcompose

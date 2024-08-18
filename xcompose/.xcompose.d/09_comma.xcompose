@@ -1,0 +1,13 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 11_comma.xcompose
+#| leader-key : <comma> or <,>
+#|-----------------------------------------------------------------------------
+
+<Multi_key> <,> <space>         : " "
+
+<Multi_key> <,> <Right>         : "⟶"
+<Multi_key> <,> <Left>          : "⟵"
+
+<Multi_key> <,> <backslash>     : "∖"
+<Multi_key> <,> <equal>         : "⩽"

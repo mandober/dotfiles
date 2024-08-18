@@ -1,0 +1,9 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 05_grave.xcompose
+#| leader-key : <grave> (tilde)
+#|-----------------------------------------------------------------------------
+
+# <grave>  <ascitilde>
+<Multi_key> <grave> <minus>           : "≃"
+<Multi_key> <grave> <equal>           : "≅"

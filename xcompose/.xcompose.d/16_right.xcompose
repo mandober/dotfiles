@@ -1,0 +1,38 @@
+#.-----------------------------------------------------------------------------
+#| file-desc   : wincompose key-config file
+#| file-name   : 04_right.xcompose
+#| set-name    : small capitals
+#| set-sample  : ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ
+#| set-notes   : Latin
+#| set-trigger : → RIGHT ARROW
+#'-----------------------------------------------------------------------------
+
+<Multi_key> <Right> <Right>  : "→"
+<Multi_key> <Right> <Down>   : "↘"
+
+<Multi_key> <Right> <a> : "ᴀ"        # LATIN LETTER SMALL CAPITAL A
+<Multi_key> <Right> <b> : "ʙ"
+<Multi_key> <Right> <c> : "ᴄ"
+<Multi_key> <Right> <d> : "ᴅ"
+<Multi_key> <Right> <e> : "ᴇ"
+<Multi_key> <Right> <f> : "ꜰ"
+<Multi_key> <Right> <g> : "ɢ"
+<Multi_key> <Right> <h> : "ʜ"
+<Multi_key> <Right> <i> : "ɪ"
+<Multi_key> <Right> <j> : "ᴊ"
+<Multi_key> <Right> <k> : "ᴋ"
+<Multi_key> <Right> <l> : "ʟ"
+<Multi_key> <Right> <m> : "ᴍ"
+<Multi_key> <Right> <n> : "ɴ"
+<Multi_key> <Right> <o> : "ᴏ"
+<Multi_key> <Right> <p> : "ᴘ"
+<Multi_key> <Right> <q> : "ǫ" # LATIN SMALL LETTER O WITH OGONEK 0x1eb
+<Multi_key> <Right> <r> : "ʀ"
+<Multi_key> <Right> <s> : "ꜱ"
+<Multi_key> <Right> <t> : "ᴛ"
+<Multi_key> <Right> <u> : "ᴜ"
+<Multi_key> <Right> <v> : "ᴠ"
+<Multi_key> <Right> <w> : "ᴡ"
+<Multi_key> <Right> <x> : "x" # X missing
+<Multi_key> <Right> <y> : "ʏ"
+<Multi_key> <Right> <z> : "ᴢ"

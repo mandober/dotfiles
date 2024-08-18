@@ -1,0 +1,8 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 15_minus.xcompose
+#| leader-key : <minus> @keypad
+#|-----------------------------------------------------------------------------
+
+<Multi_key> <minus> <plus>            : "∓"
+<Multi_key> <minus> <period>          : "∸"

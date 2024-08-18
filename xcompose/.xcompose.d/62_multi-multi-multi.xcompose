@@ -1,0 +1,8 @@
+#|---------------------------------------------------------
+#| desc    : wincompose config file
+#| file    : 62_multi-multi-multi.xcompose
+#| name    : triple multi
+#| trigger : <Multi_key> <Multi_key> <Multi_key> …
+#|---------------------------------------------------------
+
+# <Multi_key> <Multi_key> <Multi_key> <colon> : "⦂"

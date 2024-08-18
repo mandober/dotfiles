@@ -1,0 +1,82 @@
+# XCompose :: Catalog of glyphs
+
+0   5                                       46       55       65
+ Gl | Name                                   | Hex    | KeySeq  | Desc
+----|----------------------------------------|--------|---------|---------------------
+ ⥁  | CLOCKWISE CLOSED CIRCLE ARROW          | 0x2941 | c w     | cw composition
+ ⥀  | ANTICLOCKWISE CLOSED CIRCLE ARROW      | 0x2940 | c c w   | ccw composition
+ 𝔹  | MATHEMATICAL DOUBLE-STRUCK CAPITAL B   | 0x1d539| b b     | Booleans
+ ℕ  | DOUBLE-STRUCK CAPITAL N                | 0x2115 | n n     | Naturals
+ ℚ  | DOUBLE-STRUCK CAPITAL Q                | 0x211a | q q     | Rationals
+ ℝ  | DOUBLE-STRUCK CAPITAL R                | 0x211d | r r     | Reals
+ ℤ  | DOUBLE-STRUCK CAPITAL Z                | 0x2124 | z z     | Integers
+ ←  | LEFTWARDS ARROW                        | 0x2190 | ← ←     | arrow left
+ ↑  | UPWARDS ARROW                          | 0x2191 | ↑ ↑     | arrow up
+ →  | RIGHTWARDS ARROW                       | 0x2192 | → →     | arrow right
+ ↓  | DOWNWARDS ARROW                        | 0x2193 | ↓ ↓     | arrow down
+ ⅀  | DOUBLE-STRUCK N-ARY SUMMATION          | 0x2140 |         | 
+ ≫  | MUCH GREATER-THAN                      | 0x226b |         | 
+ ≪  | MUCH LESS-THAN                         | 0x226a |         | 
+ ∷  | PROPORTION                             | 0x2237 | : :     |
+ ′  | PRIME                                  | 0x2032 | ' '     | 
+ 𝔹  | MATHEMATICAL DOUBLE-STRUCK CAPITAL B   | 0x1d539| b b     | 
+ ∴  | THEREFORE                              | 0x2234 |         | 
+ ∵  | BECAUSE                                | 0x2235 |         | 
+ ⟺  | LONG LEFT RIGHT DOUBLE ARROW           | 0x27fa |        | 
+ λ  | GREEK SMALL LETTER LAMDA               | 0x3bb  | l l     | 
+ ℕ  | DOUBLE-STRUCK CAPITAL N                | 0x2115 | n n     | 
+ ∘  | RING OPERATOR                          | 0x2218 | o o     | 
+ ℚ  | DOUBLE-STRUCK CAPITAL Q                | 0x211a | q q     | 
+ ℝ  | DOUBLE-STRUCK CAPITAL R                | 0x211d | r r     | 
+ ∑  | N-ARY SUMMATION                        | 0x2211 |         | 
+ τ  | GREEK SMALL LETTER TAU                 | 0x3c4  |         | 
+ 𝓤  | MATHEMATICAL BOLD SCRIPT CAPITAL U     | 0x1d4e4| u u     | 
+ ℤ  | DOUBLE-STRUCK CAPITAL Z                | 0x2124 | z z     | 
+
+
+Legend:
+- Gl : direct presentation of the symbol (as rendered in vscode)
+- FN : File in which the keyseq for the symbol is defined
+  - 01   01_up.xcompose
+  - 03   03_down.xcompose
+  - 05   05_left.xcompose
+  - 07   07_right.xcompose
+  - 10   10_equal.xcompose
+  - 11   11_comma.xcompose
+  - 12   12_period.xcompose
+  - 13   13_backslash.xcompose
+  - 14   14_slash.xcompose
+  - 15   15_minus.xcompose
+  - 21   21_descriptive.xcompose
+  - 23   23_misc.xcompose
+  - 41   41_doublekey.xcompose
+  - 43   43_doubletap.xcompose
+- 'keyseq' always begins with the 'Compose' key ('⎄'), i.e. (either) Alt ('⎇')
+- 'keyseq' is a sequence of key strokes, hit one after the other
+- 'keyseq' has the head (including '⎄') and a tail
+  - head always begins with '⎄'
+  - then contains 'modifiers'
+  - then the 'semantic' carrier key
+  - then coda
+  - e∙g the glyph ≃ is ⎄ - ↑ ` = compose, minus, up, grave
+- 'leader' keys are unshifted, easily accessible keys
+- all keyseq begin with the Compose key, `⎄`
+  - formally: '<Multi_key>'
+  - set to either 'Alt' key, '⎇'
+- Common leader keys
+  - comma, ','
+  - dot, '.'
+  - backslash, '\'
+  - colon, ':'
+  - apostrophe, '
+  - slash, '/'
+  - equals, '='
+  - minus, '-'
+  - Other Leader Schemes
+    - double compose then seq tail (e.g. ⎄ ⎄ o)
+    - compose, double-tap (e.g. ⎄ o o)
+- Common modifier keys
+  - '↑' <Up>
+  - '↓' <Down>
+  - '←' <Left>
+  - '→' <Right>

@@ -1,0 +1,13 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 10_slash.xcompose
+#| leader-key : <slash> (bar, pipe)
+#|-----------------------------------------------------------------------------
+
+# <slash> as <bar>
+# (|) +       (-) = ⊢
+# (|) + (0) + (-) = ⊬
+<Multi_key> <slash>     <minus> : "⊢"
+<Multi_key> <slash> <0> <minus> : "⊬"
+<Multi_key> <slash>     <equal> : "⊨"
+<Multi_key> <slash> <0>         : "⊭"

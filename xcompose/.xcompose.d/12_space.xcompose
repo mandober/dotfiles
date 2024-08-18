@@ -1,0 +1,7 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 06_space.xcompose
+#| leader-key : <space> (shifted: minus, also on keypad)
+#|-----------------------------------------------------------------------------
+
+<Multi_key> <space> : " " # MEDIUM MATHEMATICAL SPACE	

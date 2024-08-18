@@ -1,0 +1,62 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 13_backslash.xcompose
+#| leader-key : <backslash> or <\>
+#|-----------------------------------------------------------------------------
+
+
+# ⟻ ⟼ ⟾ ⟽
+<Multi_key> <backslash> <Left>          : "⟻"
+<Multi_key> <backslash> <Right>         : "⟼"
+<Multi_key> <backslash> <Up>            : "⟾"
+<Multi_key> <backslash> <Down>          : "⟽"
+
+# ⍟ ✪ ❂ ❉ ❋ ✼ ✱ ∞ ✻ ★
+<Multi_key> <backslash> <1>             : "⍟"
+<Multi_key> <backslash> <2>             : "✪"
+<Multi_key> <backslash> <3>             : "❂"
+<Multi_key> <backslash> <4>             : "❉"
+<Multi_key> <backslash> <5>             : "❋"
+<Multi_key> <backslash> <6>             : "✼"
+<Multi_key> <backslash> <7>             : "✱"
+<Multi_key> <backslash> <8>             : "∞"
+<Multi_key> <backslash> <9>             : "✻"
+<Multi_key> <backslash> <0>             : "★"
+
+<Multi_key> <backslash> <parenleft>     : "‹"    # guillemet-double-right
+<Multi_key> <backslash> <parenright>    : "›"    # guillemet-double-left
+<Multi_key> <backslash> <braceleft>     : "«"    # guillemet-double-right
+<Multi_key> <backslash> <braceright>    : "»"    # guillemet-double-left
+
+# … ⋯ ∘ ⅋ ⨯ ≠ ≅ ÷
+<Multi_key> <backslash> <.>             : "…"   # ellipses a…b
+<Multi_key> <backslash> <,>             : "⋯"   # ellipses-middle, a⋯b
+<Multi_key> <backslash> <:>             : "∘"   # function-composition f∘g
+<Multi_key> <backslash> <ampersand>     : "⅋"  # linear-logic-rotated-amp p⅋q
+<Multi_key> <backslash> <asterisk>      : "⨯"  # set-product-small A⨯B
+# <Multi_key> <backslash> <slash>         : "÷"  # 9÷5
+# <Multi_key> <backslash> <equal>         : "≠"  # inequality-relation a≠b
+# <Multi_key> <backslash> <+>             : "≅"  # isomorphic-relation x≅y
+
+<Multi_key> <backslash> <space>         : " " # en-space
+
+# ⋀ ∧  ⟘ ⟂ ⊥  ⨅ ⨆   ⋁ ∨  ⟙ ⊤  ⋂ ∩  ⋃ ∪  ⨉ ⨯
+<Multi_key> <backslash> <a>             : "⋀"  # logic-conjuction n-ary
+<Multi_key> <backslash> <A>             : "∧"  # logic-conjuction n-ary
+<Multi_key> <backslash> <b>             : "⟘"  # type-bottom large
+<Multi_key> <backslash> <B>             : "⊥"  # type-bottom small
+<Multi_key> <backslash> <d>             : "⨆"  # set: disjoint union
+<Multi_key> <backslash> <f>             : "⟂"  # set: product n-ary
+<Multi_key> <backslash> <F>             : "⟘"  # set: product n-ary
+<Multi_key> <backslash> <i>             : "⋂"  # set: intersection n-ary
+<Multi_key> <backslash> <I>             : "∩"  # set: intersection n-ary
+<Multi_key> <backslash> <m>             : "⊎"  # MULTISET UNION 0x228e
+<Multi_key> <backslash> <o>             : "⋁"  # logic-disjuction n-ary
+<Multi_key> <backslash> <O>             : "∨"  # logic-disjuction n-ary
+<Multi_key> <backslash> <p>             : "⨅"  #
+<Multi_key> <backslash> <t>             : "⟙"  # logic-true large
+<Multi_key> <backslash> <T>             : "⊤"  # logic-true large
+<Multi_key> <backslash> <u>             : "⋃"  # set: union n-ary
+<Multi_key> <backslash> <U>             : "∪"  # set: union n-ary
+<Multi_key> <backslash> <x>             : "⨉"  # set: product n-ary
+<Multi_key> <backslash> <X>             : "⨯"  # set: product n-ary

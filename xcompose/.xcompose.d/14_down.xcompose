@@ -1,0 +1,73 @@
+#|-----------------------------------------------------------------------------
+#| for:      wincompose config
+#| file:     02_down.xcompose
+#| modifier: DOWN ARROW ↓
+#| desc:
+#|   Numeric subscripts (complete)
+#|   Latin subscripts (incomplete)
+#|   Greek subscripts (fills holes)
+#|
+#|-----------------------------------------------------------------------------
+
+<Multi_key> <Down> <Up>         : "↕"
+<Multi_key> <Down> <Down>       : "↓"
+<Multi_key> <Down> <Left>       : "↙"
+<Multi_key> <Down> <Right>      : "↘"
+
+<Multi_key> <Down> <period>     : "•"
+<Multi_key> <Down> <comma>      : "∙"
+
+
+#========================= subscripts
+# ﹢ ˗ ₌ ₍ ₎
+<Multi_key> <Down> <plus>       : "﹢"
+<Multi_key> <Down> <minus>      : "˗"
+<Multi_key> <Down> <equal>      : "₌"
+<Multi_key> <Down> <parenleft>  : "₍"
+<Multi_key> <Down> <parenright> : "₎"
+
+# ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉
+<Multi_key> <Down> <0> : "₀"
+<Multi_key> <Down> <1> : "₁"
+<Multi_key> <Down> <2> : "₂"
+<Multi_key> <Down> <3> : "₃"
+<Multi_key> <Down> <4> : "₄"
+<Multi_key> <Down> <5> : "₅"
+<Multi_key> <Down> <6> : "₆"
+<Multi_key> <Down> <7> : "₇"
+<Multi_key> <Down> <8> : "₈"
+<Multi_key> <Down> <9> : "₉"
+
+# ₐ ₑ ₕ ᵢ ⱼ ₖ ₗ ₘ ₙ ₒ ₚ ᵣ ₛ ₜ ᵤ ᵥ ₓ
+# ᵦ ᵪ ᵧ ᵨ ᵩ
+# 𝚽 𝛙
+# 𝟊 𝟋
+
+# (missing: b c d f g q y z; all uppercase letters)
+
+<Multi_key> <Down> <a>          : "ₐ"         # LATIN SUBSCRIPT SMALL LETTER A
+<Multi_key> <Down> <b>          : "ᵦ" # b = ᵦ
+<Multi_key> <Down> <c>          : "ᵪ" # c = ᵪ
+<Multi_key> <Down> <d>          : "𝚽" # d = 𝚽
+<Multi_key> <Down> <e>          : "ₑ"
+<Multi_key> <Down> <f>          : "𝟋" # f = ᵩ
+<Multi_key> <Down> <F>          : "𝟊" # f = 𝟊
+<Multi_key> <Down> <g>          : "ᵧ" # g = ᵧ
+<Multi_key> <Down> <h>          : "ₕ"
+<Multi_key> <Down> <i>          : "ᵢ"
+<Multi_key> <Down> <j>          : "ⱼ"
+<Multi_key> <Down> <k>          : "ₖ"
+<Multi_key> <Down> <l>          : "ₗ"
+<Multi_key> <Down> <m>          : "ₘ"
+<Multi_key> <Down> <n>          : "ₙ"
+<Multi_key> <Down> <o>          : "ₒ"
+<Multi_key> <Down> <p>          : "ₚ"
+<Multi_key> <Down> <q>          : "ᵨ" # q = ᵨ
+<Multi_key> <Down> <r>          : "ᵣ"
+<Multi_key> <Down> <s>          : "ₛ"
+<Multi_key> <Down> <t>          : "ₜ"
+<Multi_key> <Down> <u>          : "ᵤ"
+<Multi_key> <Down> <v>          : "ᵥ"
+<Multi_key> <Down> <x>          : "ₓ"
+<Multi_key> <Down> <y>          : "ᵩ" # y = ᵩ
+<Multi_key> <Down> <z>          : "𝛙" # z = 𝛙

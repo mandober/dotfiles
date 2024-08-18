@@ -1,0 +1,36 @@
+#|---------------------------------------------------------
+#| desc    : wincompose config file
+#| file    : 61_multi-multi.xcompose
+#| name    : double multi
+#| trigger : <Multi_key> <Multi_key> …
+#|---------------------------------------------------------
+
+# ⟨ ⟩ ⦂ ⟪ ⟫
+<Multi_key> <Multi_key> <colon>       : "⦂"
+<Multi_key> <Multi_key> <parenleft>   : "⟨"
+<Multi_key> <Multi_key> <parenright>  : "⟩"
+<Multi_key> <Multi_key> <braceleft>   : "⟪"
+<Multi_key> <Multi_key> <braceright>  : "⟫"
+
+# ‹ › « »
+# <Multi_key> <Multi_key> <comma>   : "‹"
+# <Multi_key> <Multi_key> <period>  : "›"
+# <Multi_key> <Multi_key> <less>    : "«"
+# <Multi_key> <Multi_key> <greater> : "»"
+# 
+<Multi_key> <Multi_key> <f>           : "𝓕" # also Alt+f+f
+<Multi_key> <Multi_key> <o>           : "°"
+<Multi_key> <Multi_key> <p>           : "𝒫" # also Alt+p+p
+<Multi_key> <Multi_key> <u>           : "𝒰" # also Alt+u+u
+<Multi_key> <Multi_key> <x>           : "×"
+<Multi_key> <Multi_key> <grave>       : "≁"
+
+# <Multi_key> <Multi_key> <i>           : "𝒾"
+# <Multi_key> <Multi_key> <j>           : "𝒿"
+# <Multi_key> <Multi_key> <k>           : "𝓀"
+# <Multi_key> <Multi_key> <l>           : "𝓁"
+# <Multi_key> <Multi_key> <m>           : "𝓂"
+# <Multi_key> <Multi_key> <n>           : "𝓃"
+# <Multi_key> <Multi_key> <p>           : "𝒫"
+
+# <Multi_key> <comma> <Multi_key> <comma> : "≁"

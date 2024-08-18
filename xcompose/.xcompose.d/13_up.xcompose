@@ -1,0 +1,145 @@
+#|------------------------------------------------
+#| purpose    : wincompose config
+#| file-name  : 01_up.xcompose
+#| type       : charset, alphabet
+#| file-desc  : Superscript
+#| leader-key : Up (↑)
+#| notes:
+#|   SUPERSCIPT is poorly supported in Unicode, but
+#|   some other sets have symbols that can stand in:
+#|   - CANADIAN SYLLABICS set
+#|   - MODIFIER LETTER set
+#|
+#|   Unicode Superscipt:
+#|   SUPERSCRIPT LATIN SMALL LETTER I
+#|   SUPERSCRIPT LATIN SMALL LETTER J
+#|   SUPERSCRIPT LATIN SMALL LETTER N
+#|   
+#|   - Superscipt Latin lowercase: ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖᶲʳˢᵗᵘᵛʷˣʸᶻ (q) ⟼ ᶲ
+#|   - Latin lowercase: ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖᶲʳˢᵗᵘᵛʷˣʸᶻ (q) ⟼ ᶲ
+#|     Mostly ML
+#|   - Latin uppercase: 
+#|   - Superscipt digits: ⁰¹²³⁴⁵⁶⁷⁸⁹    complete ✔
+#|   - Superscipt arithemtic symbols: ⋅ ᐩ ⁻ ⁼ ⁽ ⁾
+#|   
+#|   But some other sets have glyphs that resamble superscript:
+#|   
+#|   
+#|------------------------------------------------
+
+
+#| arrows
+<Multi_key> <Up>  <Up>           : "↑"
+<Multi_key> <Up>  <Left>         : "↖"
+<Multi_key> <Up>  <Right>        : "↗"
+
+# =============================================================
+# Superscript symbols
+# =============================================================
+# ᵃˣᶻʸₐₓᶻᙆ⋅
+<Multi_key> <Up> <period>       : "⋅"
+<Multi_key> <Up> <asterisk>     : "ˣ"
+<Multi_key> <Up> <plus>         : "ᐩ"
+<Multi_key> <Up> <minus>        : "⁻"
+<Multi_key> <Up> <equal>        : "⁼"
+<Multi_key> <Up> <parenleft>    : "⁽"
+<Multi_key> <Up> <parenright>   : "⁾"
+
+
+# ˣ MODIFIER LETTER SMALL X
+# ⋅ DOT OPERATOR
+# ᐩ CANADIAN SYLLABICS FINAL PLUS
+
+# ⁺ SUPERSCRIPT PLUS SIGN
+# ⁻ SUPERSCRIPT MINUS
+# ⁼ SUPERSCRIPT EQUALS SIGN
+# ⁽ SUPERSCRIPT LEFT PARENTHESIS
+# ⁾ SUPERSCRIPT RIGHT PARENTHESIS
+
+# =============================================================
+# Superscript digits
+# =============================================================
+<Multi_key> <Up> <0>            : "⁰"
+<Multi_key> <Up> <1>            : "¹"
+<Multi_key> <Up> <2>            : "²"
+<Multi_key> <Up> <3>            : "³"
+<Multi_key> <Up> <4>            : "⁴"
+<Multi_key> <Up> <5>            : "⁵"
+<Multi_key> <Up> <6>            : "⁶"
+<Multi_key> <Up> <7>            : "⁷"
+<Multi_key> <Up> <8>            : "⁸"
+<Multi_key> <Up> <9>            : "⁹"
+
+# =============================================================
+# Superscript lowecase letters
+# =============================================================
+# superscript latin lowecase letters: i j 
+# missing superscript latin lowecase letters: almost all
+#  q ⟼ ᶲ
+
+
+# SUPERSCRIPT: 
+
+<Multi_key> <Up> <a>            : "ᵃ"
+<Multi_key> <Up> <b>            : "ᵇ"
+<Multi_key> <Up> <c>            : "ᶜ"
+<Multi_key> <Up> <d>            : "ᵈ"
+<Multi_key> <Up> <e>            : "ᵉ"
+<Multi_key> <Up> <f>            : "ᶠ"
+<Multi_key> <Up> <g>            : "ᵍ"
+<Multi_key> <Up> <h>            : "ʰ"
+<Multi_key> <Up> <i>            : "ⁱ"
+<Multi_key> <Up> <j>            : "ʲ"
+<Multi_key> <Up> <k>            : "ᵏ"
+<Multi_key> <Up> <l>            : "ˡ"
+<Multi_key> <Up> <m>            : "ᵐ"
+<Multi_key> <Up> <n>            : "ⁿ"
+<Multi_key> <Up> <o>            : "ᵒ"
+<Multi_key> <Up> <p>            : "ᵖ"
+<Multi_key> <Up> <q>            : "ᶲ" # (q) ⟼ MODIFIER LETTER SMALL PHI
+<Multi_key> <Up> <r>            : "ʳ"
+<Multi_key> <Up> <s>            : "ˢ"
+<Multi_key> <Up> <t>            : "ᵗ"
+<Multi_key> <Up> <u>            : "ᵘ"
+<Multi_key> <Up> <v>            : "ᵛ"
+<Multi_key> <Up> <w>            : "ʷ"
+<Multi_key> <Up> <x>            : "ˣ" # (x) ⟼ MODIFIER LETTER SMALL X
+<Multi_key> <Up> <y>            : "ʸ" # (y) ⟼ MODIFIER LETTER SMALL Y
+<Multi_key> <Up> <z>            : "ᶻ" # (z) ⟼ MODIFIER LETTER SMALL Z
+#  ᙆ  CANADIAN SYLLABICS CARRIER Z
+#  ᶻ  
+
+
+# =============================================================
+# Superscript UPPERCASE letters
+# =============================================================
+# 7 letters missing: C F Q S X Y (Z)
+
+<Multi_key> <Up> <A>            : "ᴬ"
+<Multi_key> <Up> <B>            : "ᴮ"
+# <Multi_key> <Up> <C>            : "" # (C) ⟼
+<Multi_key> <Up> <D>            : "ᴰ"
+<Multi_key> <Up> <E>            : "ᴱ"
+# <Multi_key> <Up> <F>            : "" # (F) ⟼
+<Multi_key> <Up> <G>            : "ᴳ"
+<Multi_key> <Up> <H>            : "ᴴ"
+<Multi_key> <Up> <I>            : "ᶦ"
+<Multi_key> <Up> <J>            : "ᴶ"
+<Multi_key> <Up> <K>            : "ᴷ"
+<Multi_key> <Up> <L>            : "ᴸ"
+<Multi_key> <Up> <M>            : "ᴹ"
+<Multi_key> <Up> <N>            : "ᴺ"
+<Multi_key> <Up> <O>            : "ᴼ"
+<Multi_key> <Up> <P>            : "ᴾ"
+# <Multi_key> <Up> <Q>            : "" # (Q) ⟼
+<Multi_key> <Up> <R>            : "ᴿ"
+# <Multi_key> <Up> <S>            : "" # (S) ⟼
+<Multi_key> <Up> <T>    : "ᵀ"
+<Multi_key> <Up> <U>    : "ᵁ"
+<Multi_key> <Up> <V>    : "ⱽ"
+<Multi_key> <Up> <W>    : "ᵂ"
+<Multi_key> <Up> <X>    : "ˣ" # (X) ⟼
+# <Multi_key> <Up> <Y>            : "" # (Y) ⟼
+<Multi_key> <Up> <Z>    : "ᙆ" # (Z) ⟼ CANADIAN SYLLABICS CARRIER Z
+
+# MODIFIER LETTER SMALL Z

@@ -1,0 +1,76 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 12_period.xcompose
+#| leader-key : <period> <.> / <greater> (>)
+#|-----------------------------------------------------------------------------
+
+<Multi_key> <.>   <minus>          : "⨪"
+
+#|-----------------------------------------------------------------------------
+#| Greek alphabet: 28 letters
+#|
+#| True Greek capital letters (not latin equivalents):
+#|    Α Β Γ Δ  Ε Ζ Η Θ  Ι Κ Λ Μ  Ν Ξ Ο Π  Ρ Σ Τ Υ  Φ Χ Ψ Ω
+#|    α β γ δ  ϵ ζ η θ  ι κ λ μ  ν ξ ο π  ρ σ τ υ  ϕ χ ψ ω
+#|
+#| Latin equivalents (13 identical capitals, 1 identical miniscule):
+#|    A B - -  E Z H -  I K - M  N - O -  P - T -  - X - -
+#|    - - - -  - - - -  - - - -  - - o -  - - - -  - - - -
+#|
+#|
+#| exceptions: c ⟼ ξ Ξ, j ⟼ ψ Ψ, w ⟼ ω Ω, q ⟼ θ Θ
+#|
+#|-----------------------------------------------------------------------------
+<Multi_key> <.> <a> : "α" # άλφα
+# <Multi_key> <.> <A> : "Α"
+<Multi_key> <.> <b> : "β" # βήτα
+# <Multi_key> <.> <B> : "Β"
+<Multi_key> <.> <g> : "γ" # γάμμα
+<Multi_key> <.> <G> : "Γ"
+<Multi_key> <.> <d> : "δ" # δέλτα
+<Multi_key> <.> <D> : "Δ"
+
+<Multi_key> <.> <e> : "ϵ" # έψιλον
+# <Multi_key> <.> <E> : "Ε"
+<Multi_key> <.> <z> : "ζ" # ζήτα
+<Multi_key> <.> <Z> : "Ζ"
+<Multi_key> <.> <h> : "η" # ήτα
+# <Multi_key> <.> <H> : "Η"
+<Multi_key> <.> <q> : "θ" # θήτα
+<Multi_key> <.> <Q> : "Θ"
+
+<Multi_key> <.> <i> : "ι" # ιώτα
+# <Multi_key> <.> <I> : "Ι"
+<Multi_key> <.> <k> : "κ" # κάππα
+# <Multi_key> <.> <K> : "Κ"
+<Multi_key> <.> <l> : "λ" # λάμδα
+<Multi_key> <.> <L> : "Λ"
+<Multi_key> <.> <m> : "μ" # μυ
+# <Multi_key> <.> <M> : "Μ"
+
+<Multi_key> <.> <n> : "ν" # νυ
+# <Multi_key> <.> <N> : "Ν"
+<Multi_key> <.> <c> : "ξ" # ξι
+<Multi_key> <.> <C> : "Ξ"
+<Multi_key> <.> <o> : "ο" # όμικρον
+# <Multi_key> <.> <O> : "Ο"
+<Multi_key> <.> <p> : "π" # πι
+<Multi_key> <.> <P> : "Π"
+
+<Multi_key> <.> <r> : "ρ" # ρώ
+# <Multi_key> <.> <R> : "Ρ"
+<Multi_key> <.> <s> : "σ" # σίγμα
+<Multi_key> <.> <S> : "Σ"
+<Multi_key> <.> <t> : "τ" # ταυ
+# <Multi_key> <.> <T> : "Τ"
+<Multi_key> <.> <y> : "υ" # ύψιλον
+# <Multi_key> <.> <Y> : "Υ"
+
+<Multi_key> <.> <f> : "ϕ" # φι
+<Multi_key> <.> <F> : "Φ"
+<Multi_key> <.> <x> : "χ" # χι
+# <Multi_key> <.> <X> : "Χ"
+<Multi_key> <.> <j> : "ψ" # ψι
+<Multi_key> <.> <J> : "Ψ"
+<Multi_key> <.> <w> : "ω" # ωμέγα
+<Multi_key> <.> <W> : "Ω"

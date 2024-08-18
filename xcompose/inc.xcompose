@@ -1,0 +1,63 @@
+#|---------------------------------------------------------
+#| desc : wincompose: main includer of other config files
+#| path : T:\lib\apps\wincompose\xcomposeinc\inc.xcompose
+#| note : itself included from the file "$HOME\.XCompose"
+#|---------------------------------------------------------
+
+# leader: punctuation
+include "T:\lib\apps\wincompose\xcomposeinc\01_grave.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\02_underscore.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\03_equal.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\04_parenleft.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\05_parenright.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\06_slash.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\07_colon.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\08_apostrophe.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\09_comma.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\10_period.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\11_backslash.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\12_space.xcompose"
+
+# leaders: arrows
+include "T:\lib\apps\wincompose\xcomposeinc\13_up.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\14_down.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\15_left.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\16_right.xcompose"
+
+# leaders: numpad
+#include "T:\lib\apps\wincompose\xcomposeinc\17_asterisk.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\18_minus.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\19_plus.xcompose"
+
+#| leaders: digits
+include "T:\lib\apps\wincompose\xcomposeinc\20_0.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\21_1.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\22_2.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\23_3.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\24_4.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\25_5.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\26_6.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\27_7.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\28_8.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\29_9.xcompose"
+
+#| leaders: letters
+include "T:\lib\apps\wincompose\xcomposeinc\99_letters.xcompose"
+
+#include "T:\lib\apps\wincompose\xcomposeinc\31_a.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\32_b.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\33_c.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\34_d.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\35_e.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\36_f.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\37_g.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\45_o.xcompose"
+# include "T:\lib\apps\wincompose\xcomposeinc\46_q.xcompose"
+#include "T:\lib\apps\wincompose\xcomposeinc\49_s.xcompose"
+
+#| leaders: double-tap {key}
+include "T:\lib\apps\wincompose\xcomposeinc\60_key-key.xcompose"
+
+#| leaders: ⎄ ⎄
+include "T:\lib\apps\wincompose\xcomposeinc\61_multi-multi.xcompose"
+include "T:\lib\apps\wincompose\xcomposeinc\62_multi-multi-multi.xcompose"

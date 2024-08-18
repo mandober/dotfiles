@@ -1,0 +1,57 @@
+# Key modifiers
+
+Modifiers
+- Shift
+  - left Shift
+  - right Shift
+- Alt
+  - left Alt
+  - right Alt = GrAlt = Ctrl + left Alt
+- Control
+ - left Control
+ - right Control
+- Win/Super
+  -Win/Super left
+  - Win/Super right
+- App/Menu (only on the right side)
+
+- Lock-keys
+  - CapsLock
+  - ScrollLock
+  - NumLock
+
+- Specials
+  - F1 - F12
+  - ESC
+  - TAB
+  - RETURN
+  - BACKSPACE
+  - SPACE
+  - INS
+  - DEL
+  - HOME
+  - END
+  - PAGEUP
+  - PAGEDOWN
+  - PrintScreen∙SysRq
+  - ScrollLock
+  - Pause∙Break
+- NumPad
+  - NumLock
+  - / * - + . ENTER
+    - `/` (dup as "pipe", easily accessed above RET, as `/¦|`)
+    - `*` (dup as `Shift + 8`)
+    - `-` (dup as `Shift + _`)
+    - `+` (dup as `Shift + =`)
+    - `.` (dup as direct key `.¦>`)
+    - ENTER
+  - 0-9
+    - 9 • PgUp
+    - 8 • ↑
+    - 7 • Home
+    - 6 • →
+    - 5
+    - 4 • ←
+    - 3 • PgDn
+    - 2 • ↓
+    - 1 • End

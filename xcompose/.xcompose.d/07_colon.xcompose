@@ -1,0 +1,10 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 12_colon.xcompose
+#| leader-key : colon (shifted: semicolon)
+#|-----------------------------------------------------------------------------
+
+<Multi_key> <colon> <colon>         : "∷"
+<Multi_key> <colon> <minus>         : "÷"
+<Multi_key> <colon> <equal>         : "≔"
+<Multi_key> <colon> <o>             : "ö"

@@ -1,0 +1,25 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 20_0.xcompose
+#| leader-key : <0>
+#| Use <0> for negation!
+#|---------------------------------------------------------------------
+# <Multi_key> <0>         <0>             : "𝟘"
+
+# ⇎ ⇏ ⇍
+<Multi_key> <0> <Left>          : "⇍"
+<Multi_key> <0> <Right>         : "⇏"
+<Multi_key> <0> <equal>         : "⇎"
+
+<Multi_key> <0> <e>             : "∌"
+<Multi_key> <0> <E>             : "∄"
+
+<Multi_key> <0> <1> <slash>     : "∤"
+<Multi_key> <0> <2> <slash>     : "∦"
+
+<Multi_key> <0>     <slash> <minus> : "⊬"
+
+
+# ⊄ ⊅ ⊉ ⊈
+# ⋣ ⋢
+# ⇷ ⇸ ⇺ ⇻

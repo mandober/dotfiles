@@ -1,0 +1,24 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 06_plus.xcompose
+#| leader-key : <plus> @keypad
+#|-----------------------------------------------------------------------------
+
+<Multi_key> <plus>        <2>           : "⨧"
+<Multi_key> <plus> <Up>   <6>           : "⨣"
+<Multi_key> <plus> <Down> <6>           : "⨨"
+
+<Multi_key> <plus> <Down> <equal>       : "⩲"
+<Multi_key> <plus> <Down> <grave>       : "⨦"
+<Multi_key> <plus> <Down> <period>      : "⨥"
+
+<Multi_key> <plus> <Up>   <equal>       : "⩱"
+<Multi_key> <plus> <Up>   <grave>       : "⨤"
+<Multi_key> <plus> <Up>   <period>      : "∔"
+
+<Multi_key> <plus>        <u>           : "⊌" # MULTISET
+<Multi_key> <plus>        <o>           : "⨢"
+
+<Multi_key> <plus>        <minus>       : "±"
+
+# ⨁

@@ -1,0 +1,42 @@
+#.-----------------------------------------------------------------------------
+#| desc    : wincompose config file
+#| file    : 60_key-key.xcompose
+#| name    : double-key-tap (actual shortcuts)
+#| trigger : <Multi_key> + {KEY} + {KEY}
+#'-----------------------------------------------------------------------------
+
+<Multi_key> <0>         <0>             : "𝟘"
+<Multi_key> <1>         <1>             : "𝟙"
+
+<Multi_key> <b>         <b>             : "𝔹"
+<Multi_key> <f>         <f>             : "𝓕" # also Alt+Alt+f
+<Multi_key> <i>         <i>             : "î" # unit vectors
+<Multi_key> <j>         <j>             : "ĵ" # unit vectors
+<Multi_key> <k>         <k>             : "k̂" # unit vectors
+<Multi_key> <l>         <l>             : "λ"
+<Multi_key> <n>         <n>             : "ℕ"
+<Multi_key> <p>         <p>             : "𝒫" # also Alt+Alt+p
+<Multi_key> <q>         <q>             : "ℚ"
+<Multi_key> <r>         <r>             : "ℝ"
+<Multi_key> <s>         <s>             : "⅀"
+<Multi_key> <t>         <t>             : "τ"
+<Multi_key> <u>         <u>             : "𝒰" # also Alt+Alt+u
+<Multi_key> <u>         <U>             : "𝓤"
+# <Multi_key> <u>         <u>             : "u⃗" # vector notation
+# <Multi_key> <v>         <v>             : "v⃗" # vector notation
+# <Multi_key> <w>         <w>             : "w⃗" # vector notation
+<Multi_key> <z>         <z>             : "ℤ"
+
+<Multi_key> <parenleft>  <parenleft>    : "‹" # C + ( + (
+<Multi_key> <parenright> <parenright>   : "›" # C + ) + )
+<Multi_key> <braceleft>  <braceleft>    : "«" # C + Shift ( + Shift (
+<Multi_key> <braceleft>  <braceright>   : "»" # C + Shift ) + Shift )
+<Multi_key> <plus>       <plus>         : "⫲"
+<Multi_key> <equal>      <equal>        : "≅"
+<Multi_key> <grave>      <grave>        : "≈"
+<Multi_key> <comma>      <comma>        : "≤"
+<Multi_key> <period>     <period>       : "≥"
+<Multi_key> <less>       <less>         : "≪"
+<Multi_key> <greater>    <greater>      : "⨠"
+
+# ⩰ ⋍ ≃ ≊ ≈ ≋ ≌

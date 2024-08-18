@@ -1,0 +1,16 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 12_apostrophe.xcompose
+#| leader-key : apostrophe (shifted: quotedbl)
+#|-----------------------------------------------------------------------------
+
+# ʹ  MODIFIER LETTER PRIME 0x2b9
+# ʺ  MODIFIER LETTER DOUBLE PRIME 0x2ba
+# ′  PRIME  0x2032
+# 〞 DOUBLE PRIME QUOTATION MARK 0x301e
+<Multi_key> <apostrophe>     <apostrophe> : "′"
+# <Multi_key> <apostrophe> <2> <apostrophe> : "ʺ"
+# <Multi_key> <apostrophe> <3> <apostrophe> : "〞"
+
+<Multi_key> <apostrophe> <a>              : "à"
+<Multi_key> <apostrophe> <e>              : "è"

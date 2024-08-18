@@ -1,0 +1,16 @@
+#|---------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 21_parenright.xcompose
+#| leader-key : <parenright> (braceright)
+#|---------------------------------------------------------
+
+<Multi_key> <parenright> <1> : "⦄"
+<Multi_key> <parenright> <2> : "⟧"
+# <Multi_key> <parenright> <3> : ""
+<Multi_key> <parenright> <4> : "≫"
+<Multi_key> <parenright> <5> : "⟭"
+<Multi_key> <parenright> <6> : "⦈"
+<Multi_key> <parenright> <7> : "⦊"
+# <Multi_key> <parenright> <8> : ""
+# <Multi_key> <parenright> <9> : ""
+# <Multi_key> <parenright> <0> : ""

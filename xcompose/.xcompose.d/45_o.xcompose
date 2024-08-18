@@ -1,0 +1,71 @@
+#|-----------------------------------------------------------------------------
+#| origin     : wincompose key config
+#| file-name  : 45_o.xcompose
+#| leader-key : <o>
+#|---------------------------------------------------------------------
+<Multi_key> <o>         <o>             : "∘"
+<Multi_key> <o>         <x>             : "⨂"
+<Multi_key> <o>         <plus>          : "⨁"
+<Multi_key> <o>         <backslash>     : "⊕⊗⊛⊙⊚⊖⊘⊜⊝"
+<Multi_key> <o>         <slash>         : "ø"
+
+# ⨀ N-ARY CIRCLED DOT OPERATOR          0x2a00
+# ⨁ N-ARY CIRCLED PLUS OPERATOR         0x2a01
+# ⨂ N-ARY CIRCLED TIMES OPERATOR        0x2a02
+# ⨉ N-ARY TIMES OPERATOR                0x2a09
+# ⨆ N-ARY SQUARE UNION OPERATOR         0x2a06
+# ⨅ N-ARY SQUARE INTERSECTION OPERATOR  0x2a05
+# ⨄ N-ARY UNION OPERATOR WITH PLUS      0x2a04
+# ⨃ N-ARY UNION OPERATOR WITH DOT       0x2a03
+# ∑ N-ARY SUMMATION                     0x2211
+# ∐ N-ARY COPRODUCT                     0x2210
+# ∏ N-ARY PRODUCT                       0x220f
+# ⫿ N-ARY WHITE VERTICAL BAR            0x2aff
+
+# ⊕ CIRCLED PLUS                                          0x2295
+# ⊛ CIRCLED ASTERISK OPERATOR                             0x229b
+# ⊙ CIRCLED DOT OPERATOR                                  0x2299
+# ⊚ CIRCLED RING OPERATOR                                 0x229a
+# ⊖ CIRCLED MINUS                                         0x2296
+# ⊝ CIRCLED DASH                                          0x229d
+# ⊘ CIRCLED DIVISION SLASH                                0x2298
+# ⨸ CIRCLED DIVISION SIGN                                 0x2a38
+# ⊜ CIRCLED EQUALS                                        0x229c
+# 🛈 CIRCLED INFORMATION SOURCE                            0x1f6c8
+# ✪ CIRCLED WHITE STAR                                    0x272a
+# ❂ CIRCLED OPEN CENTRE EIGHT POINTED STAR                0x2742
+# 🄮 CIRCLED WZ                                            0x1f12e
+# ⊗ CIRCLED TIMES                                         0x2297
+# ⛒ CIRCLED CROSSING LANES                                0x26d2
+# ⨶ CIRCLED MULTIPLICATION SIGN WITH CIRCUMFLEX ACCENT    0x2a36
+# ➲ CIRCLED HEAVY WHITE RIGHTWARDS ARROW                  0x27b2
+# Ⓜ CIRCLED LATIN CAPITAL LETTER M                        0x24c2
+# ⎊ CIRCLED TRIANGLE DOWN                                 0x238a
+# ㉦ CIRCLED HANGUL SIOS                                   0x3266
+# ⦶ CIRCLED VERTICAL BAR                                  0x29b6
+# ⦷ CIRCLED PARALLEL                                      0x29b7
+# ⦸ CIRCLED REVERSE SOLIDUS                               0x29b8
+# 🕀 CIRCLED CROSS POMMEE                                  0x1f540
+# ⦼ CIRCLED ANTICLOCKWISE-ROTATED DIVISION SIGN           0x29bc
+# ⮾ CIRCLED X                                             0x2bbe
+# ⦹ CIRCLED PERPENDICULAR                                 0x29b9
+# ⦿ CIRCLED BULLET                                        0x29bf
+# ⦾ CIRCLED WHITE BULLET                                  0x29be
+# ⓞ CIRCLED LATIN SMALL LETTER O                          0x24de
+# ⓧ CIRCLED LATIN SMALL LETTER X                          0x24e7
+# ⓘ CIRCLED LATIN SMALL LETTER I                          0x24d8
+# ⧀ CIRCLED LESS-THAN                                     0x29c0
+# ⧁ CIRCLED GREATER-THAN                                  0x29c1
+# ⎉ CIRCLED HORIZONTAL BAR WITH NOTCH                     0x2389
+# ⓕ CIRCLED LATIN SMALL LETTER F                          0x24d5
+# 〶 CIRCLED POSTAL MARK                                   0x3036
+# 🄫 CIRCLED ITALIC LATIN CAPITAL LETTER C                 0x1f12b
+# 🄬 CIRCLED ITALIC LATIN CAPITAL LETTER R                 0x1f12c
+# 🄭 CIRCLED CD                                            0x1f12d
+
+# ⨷ MULTIPLICATION SIGN IN DOUBLE CIRCLE                  0x2a37
+# ⅀ DOUBLE-STRUCK N-ARY SUMMATION                         0x2140
+# ⨞ LARGE LEFT TRIANGLE OPERATOR                          0x2a1e
+# ⟴ RIGHT ARROW WITH CIRCLED PLUS                        0x27f4
+# ⬲ LEFT ARROW WITH CIRCLED PLUS                         0x2b32
+# ⭙ HEAVY CIRCLED SALTIRE                                 0x2b59

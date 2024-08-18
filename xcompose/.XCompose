@@ -1,0 +1,21 @@
+include ".xcompose.d/inc.xcompose"
+
+#| WinCompose
+#| https://github.com/samhocevar/wincompose
+#| 
+#| This is file auto-loaded by wincompose, it includes the other files.
+#| 
+#| WinCompose supports the standard Compose file format.
+#| It provides more than 1700 compose rules from the Xorg project:
+#|    http://www.x.org/wiki/
+#| and the dotXCompose project:
+#|    https://github.com/kragen/xcompose
+
+#| You can add custom rules by creating a file named .XCompose
+#| or .XCompose.txt in your %USERPROFILE% folder.
+
+#| WinCompose must be restarted for changes to take effect.
+
+#| WinCompose stores its state in the dir %APPDATA%\wincompose\ 
+#| * settings.ini (contains the settings)
+#| * metadata.xml (contains all the metadata associated with sequences)

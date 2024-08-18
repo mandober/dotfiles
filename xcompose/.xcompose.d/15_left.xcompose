@@ -1,0 +1,79 @@
+#.-----------------------------------------------------------------------------
+#| file-desc   : wincompose key-config file
+#| file-name   : 03_left.xcompose
+#| set-name    : Math double-struck
+#| set-sample  : ℕ ℤ ℚ ℝ ℍ 𝕡 𝕢 𝕨 𝕩 𝕫 𝟝 𝟘
+#| set-notes   : Latin double-struck
+#| set-trigger : ← LEFT ARROW
+#'-----------------------------------------------------------------------------
+
+<Multi_key> <Left> <Left>       : "←"
+<Multi_key> <Left> <Up>         : "↖"
+
+<Multi_key> <Left> <asterisk>   : "·"       # middle dot
+# <Multi_key> <Left> <period>     : "°"       # degree (Celsius)
+
+<Multi_key> <Left> <0> : "𝟘"
+<Multi_key> <Left> <1> : "𝟙"
+<Multi_key> <Left> <2> : "𝟚"
+<Multi_key> <Left> <3> : "𝟛"
+<Multi_key> <Left> <4> : "𝟜"
+<Multi_key> <Left> <5> : "𝟝"
+<Multi_key> <Left> <6> : "𝟞"
+<Multi_key> <Left> <7> : "𝟟"
+<Multi_key> <Left> <8> : "𝟠"
+<Multi_key> <Left> <9> : "𝟡"
+
+<Multi_key> <Left> <A> : "𝔸"   # DOUBLE-STRUCK LATIN LETTER CAPITAL A
+<Multi_key> <Left> <B> : "𝔹"
+<Multi_key> <Left> <C> : "ℂ"
+<Multi_key> <Left> <D> : "𝔻"
+<Multi_key> <Left> <E> : "𝔼"
+<Multi_key> <Left> <F> : "𝔽"
+<Multi_key> <Left> <G> : "𝔾"
+<Multi_key> <Left> <H> : "ℍ"
+<Multi_key> <Left> <I> : "𝕀"
+<Multi_key> <Left> <J> : "𝕁"
+<Multi_key> <Left> <K> : "𝕂"
+<Multi_key> <Left> <L> : "𝕃"
+<Multi_key> <Left> <M> : "𝕄"
+<Multi_key> <Left> <N> : "ℕ"
+<Multi_key> <Left> <O> : "𝕆"
+<Multi_key> <Left> <P> : "ℙ"
+<Multi_key> <Left> <Q> : "ℚ"
+<Multi_key> <Left> <R> : "ℝ"
+<Multi_key> <Left> <S> : "𝕊"
+<Multi_key> <Left> <T> : "𝕋"
+<Multi_key> <Left> <U> : "𝕌"
+<Multi_key> <Left> <V> : "𝕍"
+<Multi_key> <Left> <W> : "𝕎"
+<Multi_key> <Left> <X> : "𝕏"
+<Multi_key> <Left> <Y> : "𝕐"
+<Multi_key> <Left> <Z> : "ℤ"
+
+<Multi_key> <Left> <a> : "𝕒"   # DOUBLE-STRUCK LATIN LETTER SMALL A
+<Multi_key> <Left> <b> : "𝕓"
+<Multi_key> <Left> <c> : "𝕔"
+<Multi_key> <Left> <d> : "𝕕"
+<Multi_key> <Left> <e> : "𝕖"
+<Multi_key> <Left> <f> : "𝕗"
+<Multi_key> <Left> <g> : "𝕘"
+<Multi_key> <Left> <h> : "𝕙"
+<Multi_key> <Left> <i> : "𝕚"
+<Multi_key> <Left> <j> : "𝕛"
+<Multi_key> <Left> <k> : "𝕜"
+<Multi_key> <Left> <l> : "𝕝"
+<Multi_key> <Left> <m> : "𝕞"
+<Multi_key> <Left> <n> : "𝕟"
+<Multi_key> <Left> <o> : "𝕠"
+<Multi_key> <Left> <p> : "𝕡"
+<Multi_key> <Left> <q> : "𝕢"
+<Multi_key> <Left> <r> : "𝕣"
+<Multi_key> <Left> <s> : "𝕤"
+<Multi_key> <Left> <t> : "𝕥"
+<Multi_key> <Left> <u> : "𝕦"
+<Multi_key> <Left> <v> : "𝕧"
+<Multi_key> <Left> <w> : "𝕨"
+<Multi_key> <Left> <x> : "𝕩"
+<Multi_key> <Left> <y> : "𝕪"
+<Multi_key> <Left> <z> : "𝕫"
