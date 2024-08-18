@@ -1,0 +1,17 @@
+- name: Bootstrap shell environment
+  hosts: localhost
+
+  tasks:
+  - name: Install packages with apt
+    become: yes
+    ansible.builtin.apt:
+      name:
+        - git
+        - tmux
+        - htop
+        - mc
+        - most
+        - ranger
+        - bat
+        - sqlite3
+      state: present
