@@ -11,4 +11,3 @@ include ".xcompose.d/inc.xcompose"
 On Windows, the *wincompose* app tries to achive the same using the same format as the XCompose system. The main file that is loaded should be in the user's dir `%USERPROFILE%`, and named `.XCompose`, i.e. `%USERPROFILE%/.XCompose`. This file can then include XCompose files with definitions.
 
 include "xcompose.d\inc.xcompose"
-include "T:\lib\apps\wincompose\xcomposeinc\01_grave.xcompose"

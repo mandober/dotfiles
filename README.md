@@ -1,7 +1,7 @@
 # Dotfiles
 
 - DESC: Dotfiles for misc systems and environments
-- REPO: https://github.org/mandober/dotfiles
+- REPO: https://github.com/mandober/dotfiles
 - MAKE: 2018-02-01
 - EDIT: 2024-08-18
 
