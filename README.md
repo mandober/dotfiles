@@ -22,3 +22,28 @@ Configuration settings for the following shartefacts:
 - environment vars
 - ls, dircolor
 - xcompose files
+- managing shartefact shellsplanation
+  - sqlite3
+  - file system ✔
+  - both?
+
+Shellements
+- procedures or commands
+- execution context/env
+  - current shell env
+  - subshell env
+- internal procedures
+  - aliases
+  - functions
+  - builtins
+  - sourceables
+- external procedures
+  - executable programs
+  - executable scripts
+- commandline as input string
+  - word
+  - shell-word
+  - first shell-word is the main procedure (usually)
+  - prefixed main procedure
+    - sudo
+    - time, builtin, command, coproc bash builtins
