@@ -1,12 +1,13 @@
 # Dotfiles
 
-- DESC: Dotfiles for misc systems and environments
-- REPO: https://github.com/mandober/dotfiles
-- MAKE: 2018-02-01
-- EDIT: 2024-08-18
+Identity card
+- repo: https://github.com/mandober/dotfiles
+- desc: Shlife and shartefacts - shell life and artefacts
+- init: 2018-02-01
+- last caress: 2024-08-18
+- stat: work in progress (a complete mess)
 
-
-Configuration settings for the following shartefacts:
+Shartefacts
 - bash history
 - bash globbing
 - bash shopt
