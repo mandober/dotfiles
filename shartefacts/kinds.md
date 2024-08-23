@@ -1,1 +1,0 @@
-# Shartefacts :: Hierarchy :: Classes :: Kinds

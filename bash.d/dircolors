@@ -1,0 +1,181 @@
+#!/bin/bash
+#| =========================================================================
+#| file: ~/dots/bashrc.d/dircolors
+#| desc: configuration of LS_COLORS
+#| edit: 2023-12-15
+#| note: Use this file to define the style of various filesystem items
+#|       (regular files, dirs, executables, files by suffix, etc.).
+#|       When finished, you need to "compile" it by running:
+#|          eval $(dircolors -b ~/dots/bashrc.d/dircolors)
+#|
+#|       The 'dircolors' command takes a file like this one, and produces
+#|       a long, ugly string (which encodes the styles) and sets it as the
+#|       value of the LS_COLORS env var.
+#|       Utilities like ls(1), tree(1), readline, and others can then
+#|       consult the LS_COLORS env var in order to colorize their output.
+#|
+#|       The shebang on top of this file serves only as a hint for syntax
+#|       highlighting - it is redundant otherwise.
+#|
+#| =========================================================================
+
+#| Info: {{{
+#|
+#| Database file is initially set to /etc/DIR_COLORS then overridden 
+#| with one of the following (from lowest to highest priority): 
+#|      /etc/DIR_COLORS
+#|      ~/.dircolors
+#|      ~/.dir_colors
+#|
+#| Each path can be suffixed with $TERM (terminal name).
+#|      /etc/DIR_COLORS.$TERM
+#|      ~/.dircolors.$TERM
+#|      ~/.dir_colors.$TERM
+#|
+#| it uses a precompiled database in the absence of 'dircolors' file.
+#| see issue: https://github.com/trapd00r/LS_COLORS/issues/11
+ 
+
+#| COLOR
+#|   tty    add colour to 'ls' when output is on the command line
+#|   all    add colours even when piping 
+#|   none   switch off
+COLOR tty
+
+
+#| EIGHTBIT - allows setting extra options to 'ls'
+#|   1    allows 8-bit output
+#|   0    disallows 8-bit output
+EIGHTBIT 1
+
+
+#| ATTRIBUTES
+#| for colours for files and extensions:
+#|    0  reset
+#|    1  bold
+#|    3  italic
+#|    4  underscore
+#|    5  blink
+#|    7  reverse
+#|    8  concealed
+#|
+#|    RGB: 38;2;R;G;B (fg)
+#|         48;2;R;G;B (bg)
+#|
+# }}}
+
+# Term: {{{
+#                                                                     TERM
+#=========================================================================
+# TERM entries, which can be a glob patterns, to match against
+# the TERM environment variable to determine if it is colorizable.
+# (one line per terminal type that supports colour)
+TERM xterm-256color
+TERM xterm*
+TERM tmux*
+TERM con[0-9]*x[0-9]*
+TERM cons25
+TERM eterm-color
+TERM gnome-256color
+TERM hurd
+TERM jfbterm
+TERM mach-gnu-color
+TERM rxvt*
+TERM screen*
+TERM st
+TERM st-256color
+TERM terminator
+# }}}
+
+#| by group{{{
+# 38;2;50;50;50       dark gray (almost hidden)
+# 38;2;60;128;202     light pale green
+# 38;2;77;244;126     green
+# 38;2;77;244;126     pale yellow
+# 38;2;114;172;225    blue
+# 38;2;236;6;133      magenta
+# 38;2;240;148;9      orange
+# 38;2;244;231;55     yellow
+
+#| define styles for FS items
+#
+# 38;2;60;128;202;1   define style for FS items 1 (bluish bold)
+# 38;2;249;241;174;2  define style for FS items 2
+# 38;2;236;6;133;3    define style for FS items 3 (italic)}}}
+
+#| FS items{{{
+NORMAL 0
+FILE 0
+RESET 0
+DIR 0
+LINK 3
+FIFO  3
+SOCK 3
+DOOR 3
+BLK 3
+CHR 3
+ORPHAN 3
+MISSING 3
+MULTIHARDLINK 3
+OTHER_WRITABLE 3
+SETUID 0
+SETGID 0
+CAPABILITY 0
+STICKY_OTHER_WRITABLE 0
+STICKY 0
+EXEC 0# }}}
+
+#| grey files{{{
+.selected_editor          38;2;70;70;70 # grey
+.sudo_as_admin_successful 38;2;70;70;70 # grey}}}
+
+#| langs{{{
+.md  38;2;157;206;255    # blue-ish
+.js  38;2;73;221;123     # green
+#.py  38;2;55;137;198    # blue
+#.pl  38;2;236;6;133     # red
+#.rb  38;2;232;9;14      # red
+#.c   38;2;200;200;180   # pale
+#.h   38;2;200;180;180   # pale-ish}}}
+
+#| archives{{{
+.tar  1;38;2;150;150;150
+#.gz   1;38;2;150;150;150
+#.zip  1;38;2;150;150;150
+#.rpm  1;38;2;150;150;150
+#.deb  1;38;2;150;150;150}}}
+
+#| bash scripts{{{
+#.sh                    38;2;144;251;55 # bright green
+#.bash                  38;2;144;241;55 # bright green}}}
+
+#| dotfiles{{{
+
+#| bash
+.bash_history           38;2;144;241;55 # bright green
+.bash_login             38;2;144;241;55 # bright green
+.bash_logout            38;2;144;241;55 # bright green
+.bash_profile           38;2;144;241;55 # bright green
+.bashrc                 38;5;1          # red
+
+#| shell
+.profile                38;5;1
+.tmux.conf              38;5;1
+.inputrc                38;5;1
+.dircolors              38;5;65
+
+#| vim
+.vimrc                  38;2;247;237;208 # yellow
+.viminfo                38;2;247;237;208 # yellow
+#.vimrc.local            38;2;247;237;208 # yellow
+#.vimrc.before           38;2;247;237;208 # yellow
+#.vimrc.bundles          38;2;247;237;208 # yellow
+
+#| zsh
+#.zcompdump              38;5;68
+#.zsh_history            38;5;68
+#.zshrc                  38;5;1}}}
+
+
+
+# vim: foldmethod=marker

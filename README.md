@@ -48,3 +48,12 @@ Shellements
   - prefixed main procedure
     - sudo
     - time, builtin, command, coproc bash builtins
+
+
+
+
+
+Shmalevolent Shenvironment.   
+Malfunctional Shmalfunctional.    
+Hogwash. Claptrap. Drivel. Folderol.   
+Commonsensical tra-la-la.   
